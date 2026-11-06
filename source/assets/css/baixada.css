@@ -1,0 +1,26 @@
+.sessao-parallax{
+    background-image: url('../img/foto_baixada11.jpg'); 
+    background-position: center;
+}
+
+.imgOnda{
+    max-width: 300px;
+    transform: translateX(-300px);
+    opacity: 0;
+    transition: 0.8s all ease-in-out;    
+}
+.imgMap{
+    transform: translateX(400px);
+    opacity: 0;
+    transition: 0.8s all ease-in-out;  
+}
+
+.container-texto-regiao{
+    padding-left: 90px;
+}
+h1{
+    color: #45B4DD;
+}
+p{
+    color: #53B9D8;
+}

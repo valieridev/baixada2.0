@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "gentium-basic";
+    src: url("../fonts/gentium-basic.regular.ttf");
+    font-style: normal;
+    font-weight: 500 900;
+}
+h1,p,li,h2{
+    font-family: "gentium-basic";
+    font-weight: 600;
+}
+h1{
+    font-size: clamp(35px, 7vw, 60px);
+}
+h2,p{
+    transition: 0.9s all ease-in-out;
+    transform: translateX(-40px);
+    opacity: 0;
+}
