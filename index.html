@@ -46,14 +46,11 @@
 
 
     <main class="container-fluid px-0 position-relative min-vh-100 d-flex flex-column ">
-        <section class="container mt-5 py-5">
-            <img src="source/assets/img/foto_baixada3-removebg-preview.png" class="position-absolute top-0 start-0 img-fluid imgOnda1" alt="">
+        <!-- sessao-regiao -->
+        <section class="container mt-5 py-5 ">
+            <img src="source/assets/img/foto_baixada3-removebg-preview.png" class="position-absolute top-0 start-0 img-fluid img-onda-regiao" alt="">
 
-            
-            
             <div class="row align-items-center row-gap-4">
-                
-                
                 <div class="col-12 col-md-7 container-texto-regiao">
                     
                     <h2 class="titulo-regiao text-uppercase fw-bold mb-4 fs-1">
@@ -76,7 +73,7 @@
 
                 
                 <div class="col-12 col-md-5 text-center">
-                    <img src="source/assets/img/imagem_baixada_santista_02-removebg-preview.png" class="img-fluid imgMap" alt="Mapa da Baixada Santista">
+                    <img src="source/assets/img/imagem_baixada_santista_02-removebg-preview.png" class="img-fluid img-mapa-baixada" alt="Mapa da Baixada Santista">
                 </div>
                 
             </div>
@@ -90,18 +87,19 @@
                 </div>
             </div>
         </section>
-                
-        <section id="cidades" class="container-fluid min-vh-100 position-relative px-5 pb-5 d-flex align-items-center">
+        
+        <!-- sessao-cidades -->
+
+        <section class="container-fluid min-vh-100 position-relative px-5 pb-5 d-flex align-items-center">
             
-            
-            <img src="source/assets/img/foto_baixada3-removebg-preview.png" class="position-absolute top-0 end-0 img-fluid imgOnda2" alt="">
-            <img src="source/assets/img/foto_baixada3-removebg-preview.png" class="position-absolute bottom-0 start-0 img-fluid imgOnda1" alt="">
+            <img src="source/assets/img/foto_baixada3-removebg-preview.png" class="position-absolute top-0 end-0 img-fluid img-onda-cidade1" alt="">
+            <img src="source/assets/img/foto_baixada3-removebg-preview.png" class="position-absolute bottom-0 start-0 img-fluid  img-onda-cidade2" alt="">
 
             <div class="container text-center py-5  position-relative z-2">
                 <h2 class="titulo-cidades mb-2 fs-1">CIDADES DA REGIÃO</h2>
                 <p class="subtitulo-cidades mb-5 fs-5">CLIQUE PARA ACESSAR</p>
     
-                <div class="d-flex flex-column align-items-center gap-3">
+                <div class="d-flex flex-column align-items-center gap-5">
                     
                     <div class="d-flex flex-wrap justify-content-center gap-3">
                         <a href="pages/praia-grande.html" class="btn-cidade justify-content-center align-items-center text-white px-2 py-2 rounded-2 ">Praia Grande</a>
@@ -122,6 +120,58 @@
             </div>
         </section>
 
+        <!-- sessao-transporte -->
+
+    <!-- As ondas continuam na borda da tela toda -->
+        <section class="container-fluid min-vh-100 position-relative d-flex flex-column justify-content-center py-5">
+
+        <!-- As ondas continuam na borda da tela toda -->
+            <img src="source/assets/img/foto_baixada3-removebg-preview.png" class="position-absolute top-0 end-0 img-fluid img-onda-transporte1" alt="">
+            <img src="source/assets/img/foto_baixada3-removebg-preview.png" class="position-absolute bottom-0 start-0 img-fluid img-onda-transporte2" alt="">
+
+            <!-- O CONTEÚDO DENTRO DE UM CONTAINER (afasta o texto das bordas) -->
+            <div class="container">
+                
+                <div class="row align-items-center row-gap-4">
+                    <div class="col-12 col-md-7 container-texto-transporte">
+                        <h2 class="titulo-transporte text-uppercase fw-bold mb-4 fs-1">Transporte</h2>
+                        <div class="text-secondary lh-lg fs-5">
+                            <p class="paragrafo-transporte mb-3">
+                                A região está situada a menos de 100 km da capital São Paulo e das indústrias da região do ABC, além de possuir excelentes conexões de transporte viário através do Sistema Anchieta Imigrantes, Rodovia Manuel da Nóbrega e a BR-101(que liga a Baixada Santista ao município do Rio de Janeiro). 
+                            </p>
+                            <p class="paragrafo-transporte mb-3">
+                                Duas linhas ferroviárias que atravessam todo o Estado de São Paulo desembocam no Porto de Santos.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 text-center">
+                        <img src="source/assets/img/imagem baixada santista 04.webp" class="img-fluid img-serra rounded-2 position-relative z-2" alt="Serra Baixada Santista">
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-12 text-secondary lh-lg fs-5 container-texto-transporte">
+                        <p class="paragrafo-transporte">
+                            Interligando a região a municipios importantes como São Paulo, Campinas, Bauru e Araraquara. O Porto de Santos faz a conexão de cargas e passageiros com o resto do Brasil e com o mundo. O Porto de Santos faz a conexão de cargas e passageiros com o resto do Brasil e com o mundo.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="container-fluid py-3 border-top border-light-subtle">
+            <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start gap-2">
+                <p class="texto-footer fs-4 fw-semibold text-start">2026</p>
+                <p class="texto-footer fs-4">Site reservado para meios educacionais</p>
+
+                <div class="texto-footer text-md-end  lh-sm">
+                    <p>Desenvolvido por</p>
+                    <p>Pedro Valieri, Luiz G Oliveira, Luiz G Menezes</p>
+                </div>
+
+            </div>
+        </footer>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>

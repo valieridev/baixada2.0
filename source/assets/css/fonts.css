@@ -11,8 +11,4 @@ h1,p,li,h2,button{
 h1{
     font-size: clamp(35px, 7vw, 60px);
 }
-h2,p{
-    transition: 0.9s all ease-in-out;
-    transform: translateX(-40px);
-    opacity: 0;
-}
+
