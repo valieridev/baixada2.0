@@ -11,14 +11,14 @@ function scrollBanner() {
 
 function scrollText() {
     let scroll = window.scrollY;
-    let h2 = document.querySelector("h2");
+    let h2 = document.querySelectorAll("h2");
     let paragrafos = document.querySelectorAll("p"); // Mudado o nome da variável para clareza
 
     if (scroll > 200) {
-        if (h2) {
+        h2.forEach(h2 =>{
             h2.style.transform = "translateX(0px)";
             h2.style.opacity = 1;
-        }
+        })
 
         paragrafos.forEach(p => {
             p.style.transform = "translateX(0px)";
@@ -26,6 +26,12 @@ function scrollText() {
         });
     }
 }
+function animacaHeader(){
+    let header = document.querySelector("header");
+
+    header.style.transform = "translateY(0px)";
+}
+document.addEventListener("DOMContentLoaded", animacaHeader);
 
 window.addEventListener('scroll', () => {
     scrollBanner();

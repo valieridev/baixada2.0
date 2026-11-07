@@ -15,12 +15,18 @@
 
 main{
     top: 800px;
+    background-color: #F3F3F1;
 }
 
 
 /*header*/
 .custom-header {
     z-index: 1030; 
+}
+
+header{
+    transform: translateY(-70px);
+    transition: 0.7s all ease-in-out;
 }
 
 .custom-header .container {
