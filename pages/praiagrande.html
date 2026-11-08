@@ -8,34 +8,34 @@
     <link rel="stylesheet" href="../source/assets/css/global.css">
     <link rel="stylesheet" href="../source/assets/css/fonts.css">
     <link rel="stylesheet" href="../source/assets/css/praiagrande.css">
-    <link rel="shortcut icon" href="../source/assets/img/favicon_praiagrande.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../source/assets/img/praiagrande/favicon_praiagrande.png" type="image/x-icon">
 </head>
 <body>
 
-    <header class="container-fluid position-fixed bg-transparent d-flex justify-content-center align-items-start pt-4 custom-header">
-        <div class="container w-100 w-lg-50 d-flex justify-content-center border-bottom pb-2 px-3 rounded-5">
-            
-            <ul class="nav custom-nav-links d-flex flex-row justify-content-between align-items-center w-100 p-0 m-0">
+    <header class="navbar navbar-expand-md position-fixed top-0 start-50 translate-middle-x w-100 custom-header pt-3">
+        <div class="d-flex flex-column flex-md-row align-items-end align-items-md-center justify-content-center ms-auto mx-md-auto py-2 px-3 rounded-4 bg-white bg-opacity-75 border-bottom shadow-sm" style="max-width: 700px;">
                 
-                <div class="d-flex flex-row gap-4">
-                    <li class="nav-item fs-6">
-                        <a class="nav-link text-black text-uppercase p-0 active" href="../index.html">Home</a>
+            <button class="navbar-toggler mx-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center " id="menuNavbar">
+                <ul class="navbar-nav custom-nav-links d-flex gap-2 gap-md-4 text-center my-2 my-md-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link text-black text-uppercase active" href="../index.html">Home</a>
                     </li>
-                    <li class="nav-item fs-6">
-                        <a class="nav-link text-black text-uppercase p-0" href="#sessao-historia">Historia</a>
+                    <li class="nav-item">
+                        <a class="nav-link text-black text-uppercase" href="#sessao-historia">Historia</a>
                     </li>
-                </div>
-            
-                <div class="d-flex flex-row gap-4">
-                    <li class="nav-item fs-6">
-                        <a class="nav-link text-black text-uppercase p-0" href="../index.html">Cidades</a>
+                    <li class="nav-item">
+                        <a class="nav-link text-black text-uppercase" href="#sessao-dicas">Dicas</a>
                     </li>
-                    <li class="nav-item fs-6">
-                        <a class="nav-link text-black text-uppercase p-0" href="#footer">Footer</a>
+                    <li class="nav-item">
+                        <a class="nav-link text-black text-uppercase" href="#footer">FAQ</a>
                     </li>
-                </div>
-                
-            </ul>
+                </ul>
+            </div>
+
         </div>
     </header>
 
@@ -48,11 +48,11 @@
 
     <main class="container-fluid px-0 position-relative min-vh-100 d-flex flex-column ">
         <section class="container mt-5 py-5" id="sessao-historia">
-            <div class="row d-flex align-items-center mb-5">
+            <div class="row d-flex align-items-center justify-content-center mb-5">
                 <h2 class="titulo-historia text-uppercase fw-bold mb-4 fs-1 text-center">HISTORIA</h2>
             </div>
             <div class="row align-items-center row-gap-4">
-                <div class="col-12 col-md-7 container-texto-historia">
+                <div class="col-12 col-md-6 ps-3 ps-md-5 text-start text-md-start">
                     <div class="text-secondary lh-lg fs-5">
                         <p class="paragrafo-historia mb-3">
                             Habitada por pescadores desde o século XIX, Praia Grande constituía-se de vários núcleos espalhados ao longo da faixa litorânea. Em 1902, iniciou-se na região a construção do Forte de Itaipu.
@@ -64,14 +64,14 @@
                 </div>
 
                 
-                <div class="col-12 col-md-5 text-center">
-                    <img src="../source/assets/img/foto cidade praia grande 02.webp" class="img-fluid img-ponte-pensil rounded-2" alt="Ponte Pensil">
+                <div class="col-12 col-md-6 text-center ps-3">
+                    <img src="../source/assets/img/praiagrande/foto cidade praia grande 02.webp" class="img-fluid img-ponte-pensil rounded-2" alt="Ponte Pensil">
                 </div>
                 
             </div>
             <div class="row row-gap-4 mt-5 py-5">
 
-                <div class="col-12 col-md-6 container-texto-historia">
+                <div class="col-12 col-md-6 ps-3 ps-md-5 text-start text-md-start">
                     <div class="text-secondary lh-lg fs-5">
                         <p class="paragrafo-historia mb-3">
                             A ponte foi construída para conduzir um emissário de esgoto, parte do plano de saneamento de Santos, elaborado pelo engenheiro Francisco Saturnino de Brito.
@@ -84,7 +84,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 container-texto-historia">
+                <div class="col-12 col-md-6 ps-3 ps-md-5 text-start text-md-start">
                     <div class="text-secondary lh-lg fs-5">
                         <p class="paragrafo-historia mb-3">
                             A primeira medida administrativa ocorreu em 18 de fevereiro de 1959, com a criação do 2º subdistrito (Boqueirão) do distrito-sede do município de São Vicente.
@@ -97,6 +97,41 @@
                         </p>
                     </div>
 
+                </div>
+            </div>
+        </section>
+
+        <!-- sessao dicas -->
+        <section class="container my-5 py-5" id="sessao-dicas">
+            <div class="row d-flex align-items-center justify-content-center mb-5">
+                <h2 class="titulo-dicas text-uppercase fw-bold mb-4 fs-1 text-center">DICAS TURISTICAS</h2>
+            </div>
+            <div class="row align-items-center row-gap-4 mb-5">
+                <div class="col-12 col-md-6 ps-3 ps-md-5 text-start text-md-start">
+                    <div class="text-secondary lh-lg fs-5">
+                        <p class="paragrafo-dicas">
+                            Portinho - Parque Ézio Dall' Acqua (Sítio do Campo): Ótimo espaço ao ar livre com quiosques com churrasqueiras, playground, quadras esportivas e píer para pesca ou passeio de barco.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="text-center ps-3">
+                        <img src="../source/assets/img/praiagrande/foto-pg-portinho.jpg" class="img-fluid rounded-2 mb-3 img-dicas" alt="Imagem do portinho">
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center row-gap-4">
+                <div class="col-12 col-md-6 ps-3 ps-md-5 text-start text-md-start">
+                    <div class="text-secondary lh-lg fs-5">
+                        <p class="paragrafo-dicas">
+                                A Avenida Presidente Costa e Silva é o principal centro comercial a céu aberto de Praia Grande, localizada no coração do dinâmico bairro do Boqueirão. Conhecida popularmente apenas como "Costa e Silva", ela serve como o verdadeiro coração pulsante da cidade para compras, serviços e entretenimento, conectando diretamente o fluxo urbano até a orla da praia.
+                         </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="text-center ps-3">
+                        <img src="../source/assets/img/praiagrande/foto-pg-costasilva.jpg" class="img-fluid rounded-2 img-dicas"  alt="Imagem da costa silva">
+                    </div>
                 </div>
             </div>
         </section>

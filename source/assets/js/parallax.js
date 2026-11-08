@@ -7,11 +7,5 @@ function scrollBanner() {
             sessaoText.style.opacity = 1 - (scroll / 1000);
     }
 }
-function animacaHeader(){
-    let header = document.querySelector("header");
 
-    header.style.transform = "translateY(0px)";
-}
-
-document.addEventListener("DOMContentLoaded", animacaHeader);
 window.addEventListener('scroll', scrollBanner);

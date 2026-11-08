@@ -1,10 +1,10 @@
 .sessao-parallax{
-    background-image: url('../img/foto_baixada1\ \(3\).jpg'); 
+    background-image: url('../img/baixadasantista/foto_baixada1\ \(3\).jpg'); 
     background-position: center;
 }
 
 .img-onda-regiao{
-    max-width: 300px;
+    max-width: 30vw;
     transform: translateX(-300px);
     opacity: 0;
     transition: 0.8s all ease-in-out;    
@@ -16,9 +16,6 @@
     transition: 0.8s all ease-in-out;  
 }
 
-.container-texto-regiao{
-    padding-left: 90px;
-}
 .titulo-regiao{
     color: #45B4DD;
     letter-spacing: 2px;
@@ -37,13 +34,13 @@
 
 
 .img-onda-cidade1{
-    max-width: 300px;
+    max-width: 30vw;
     transform: translateX(300px) rotate(180deg);
     opacity: 0;
     transition: 0.8s all ease-in-out;    
 }
 .img-onda-cidade2{
-    max-width: 300px;
+    max-width: 30vw;
     transform: translateX(-300px);
     opacity: 0;
     transition: 0.8s all ease-in-out;    
@@ -92,13 +89,13 @@
 /*sessao-trasnporte*/
 
 .img-onda-transporte1{
-    max-width: 300px;
+    max-width: 30vw;
     transform: translateX(300px) rotate(180deg);
     opacity: 0;
     transition: 0.8s all ease-in-out;    
 }
 .img-onda-transporte2{
-    max-width: 300px;
+    max-width: 30vw;
     transform: translateX(-300px);
     opacity: 0;
     transition: 0.8s all ease-in-out;    
@@ -110,9 +107,6 @@
     transition: 0.8s all ease-in-out;  
 }
 
-.container-texto-transporte{
-    padding-left: 90px;
-}
 .titulo-transporte{
     color: #45B4DD;
     letter-spacing: 2px;
