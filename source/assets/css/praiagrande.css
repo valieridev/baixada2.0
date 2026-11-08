@@ -1,0 +1,38 @@
+.sessao-parallax{
+    background-image: url('../img/foto_pg1.jpg'); 
+    background-position: center;
+}
+
+.img-ponte-pensil{
+    width: 400px;
+    transform: translateX(400px);
+    opacity: 0;
+    transition: 0.8s all ease-in-out;  
+}
+
+.container-texto-historia{
+    padding-left: 90px;
+}
+.titulo-historia{
+    color: #B28A27;
+    letter-spacing: 2px;
+    transition: 0.9s all ease-in-out;
+    transform: translateX(-40px);
+    opacity: 0;
+}
+.paragrafo-historia{
+    color: #6D541C;
+    transition: 0.9s all ease-in-out;
+    transform: translateX(-40px);
+    opacity: 0;
+}
+
+/*footer*/
+
+.texto-footer {
+    color: #B28A27;
+    font-family: "gentium-basic", serif;
+    transition: 0.9s all ease-in-out;
+    transform: translateX(-40px);
+    opacity: 0;
+}
