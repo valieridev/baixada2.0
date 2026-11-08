@@ -1,10 +1,3 @@
-console.log(window.scrollY);
-function animar(seletores) {
-    document.querySelectorAll(seletores).forEach(el => {
-        el.style.transform = "translateX(0px)";
-        el.style.opacity = "1";
-    });
-}
 window.addEventListener("scroll", () => {
     const s = window.scrollY;
 

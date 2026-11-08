@@ -1,10 +1,3 @@
-function animar(seletores, comRotacao = false) {
-    document.querySelectorAll(seletores).forEach(el => {
-        el.style.transform = comRotacao ? "translateX(0px) rotate(180deg)" : "translateX(0px)";
-        el.style.opacity = "1";
-        el.classList.add("visivel");
-    });
-}
 window.addEventListener("scroll", () => {
     const s = window.scrollY;
 
