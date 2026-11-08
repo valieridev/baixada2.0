@@ -1,4 +1,3 @@
-console.log(window.scrollY);
 function animar(seletores) {
     document.querySelectorAll(seletores).forEach(el => {
         el.style.transform = "translateX(0px)";
