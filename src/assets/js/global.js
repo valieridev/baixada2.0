@@ -1,4 +1,3 @@
-// Efeito de Parallax do Banner
 function scrollBanner() {
     let scroll = window.scrollY;
     let sessaoText = document.querySelector('.sessao-parallax h1');
@@ -8,6 +7,13 @@ function scrollBanner() {
         sessaoText.style.opacity = 1 - (scroll / 1000);
     }
 }
+function animacaoHeader(){
+    let header = document.querySelector("header");
+    if (header) {
+        header.style.transform = "translateY(0px)";
+    }
+}
+document.addEventListener("DOMContentLoaded", animacaoHeader);
 window.addEventListener('scroll', scrollBanner);
 
 function animar(seletores, comRotacao = false) {
