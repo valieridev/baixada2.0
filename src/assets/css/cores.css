@@ -1,0 +1,55 @@
+body.santos {
+    --cor-titulo: #386FA4;
+    --cor-texto: #294D70;
+}
+
+body.praiagrande {
+    --cor-titulo: #B28A27;
+    --cor-texto: #6D541C;
+}
+
+body.mongagua {
+    --cor-titulo: #2989B1;
+    --cor-texto: #20576E;
+}
+
+body.itanhaem {
+    --cor-titulo: #B66E42;
+    --cor-texto: #74452D;
+}
+
+body.peruibe {
+    --cor-titulo: #B66E42;
+    --cor-texto: #74452D;
+}
+
+body.bertioga {
+    --cor-titulo: #009362;
+    --cor-texto: #01593C;
+}
+
+body.cubatao {
+    --cor-titulo: #587E38;
+    --cor-texto: #354D24;
+}
+
+body.guaruja{
+    --cor-titulo: #168C9C;
+    --cor-texto: #17545D;    
+}
+
+body.saovicente{
+    --cor-titulo: #9C565D;
+    --cor-texto: #683A40;    
+}
+
+.titulo-historia,
+.titulo-dicas,
+.texto-footer {
+    color: var(--cor-titulo);
+}
+
+.paragrafo-historia,
+.paragrafo-dicas {
+    color: var(--cor-texto);
+}

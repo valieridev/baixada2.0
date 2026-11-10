@@ -25,3 +25,16 @@ function animar(seletores, comRotacao = false) {
         el.style.opacity = "1";
     });
 }
+window.addEventListener("scroll", () => {
+    const s = window.scrollY;
+
+    if (s > 200) {
+        animar(".imagem-historia, .titulo-historia, .paragrafo-historia");
+    }
+    if (s > 700){
+        animar(".titulo-dicas, .paragrafo-dicas, .img-dicas");
+    }
+    if(s > 1500){
+        animar(".texto-footer");
+    }
+});

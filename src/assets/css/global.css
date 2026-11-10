@@ -63,3 +63,43 @@ footer {
     background-color: #F3F3F1;
     z-index: 2;
 }
+
+/*textos*/
+
+.titulo-historia{
+    letter-spacing: 2px;
+    transition: 0.9s all ease-in-out;
+    transform: translateX(-40px);
+    opacity: 0;
+}
+.paragrafo-historia{
+    transition: 0.9s all ease-in-out;
+    transform: translateX(-40px);
+    opacity: 0;
+}
+
+.titulo-dicas{
+    letter-spacing: 2px;
+    transition: 0.9s all ease-in-out;
+    transform: translateX(-40px);
+    opacity: 0;
+}
+.paragrafo-dicas{
+    transition: 0.9s all ease-in-out;
+    transform: translateX(-40px);
+    opacity: 0;
+}
+
+.texto-footer {
+    transition: 0.9s all ease-in-out;
+    transform: translateX(-40px);
+    opacity: 0;
+}
+/*imagens*/
+
+.imagem-historia, .img-dicas{
+    width: 400px;
+    transform: translateX(400px);
+    opacity: 0;
+    transition: 0.8s all ease-in-out;  
+}
