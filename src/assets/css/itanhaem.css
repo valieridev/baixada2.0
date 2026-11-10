@@ -1,0 +1,57 @@
+.sessao-parallax{
+    background-image: url('../img/itanhaem/foto-itanhaem1.jpg'); 
+}
+
+.img-itanhaem-castelhanojoao{
+    width: 400px;
+    transform: translateX(400px);
+    opacity: 0;
+    transition: 0.8s all ease-in-out;  
+}
+
+
+.titulo-historia{
+    color: #B66E42;
+    letter-spacing: 2px;
+    transition: 0.9s all ease-in-out;
+    transform: translateX(-40px);
+    opacity: 0;
+}
+.paragrafo-historia{
+    color: #74452D;
+    transition: 0.9s all ease-in-out;
+    transform: translateX(-40px);
+    opacity: 0;
+}
+
+/*sessao dicas*/
+
+.img-dicas{
+    width: 400px;
+    transform: translateX(400px);
+    opacity: 0;
+    transition: 0.8s all ease-in-out;  
+}
+
+.titulo-dicas{
+    color: #B66E42;
+    letter-spacing: 2px;
+    transition: 0.9s all ease-in-out;
+    transform: translateX(-40px);
+    opacity: 0;
+}
+.paragrafo-dicas{
+    color: #74452D;
+    transition: 0.9s all ease-in-out;
+    transform: translateX(-40px);
+    opacity: 0;
+}
+/*footer*/
+
+.texto-footer {
+    color: #B66E42;
+    font-family: "gentium-basic", serif;
+    transition: 0.9s all ease-in-out;
+    transform: translateX(-40px);
+    opacity: 0;
+}

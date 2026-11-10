@@ -17,10 +17,12 @@ html, body {
     background-position: center;
 }
 
-main{
-    top: 100vh;
+main {
+    position: relative;
+    margin-top: 100vh;
     background-color: #F3F3F1;
     overflow-x: clip;
+    z-index: 2;
 }
 
 
@@ -53,4 +55,11 @@ header {
 .custom-nav-links .nav-link:hover {
     opacity: 0.7;
     color: #aba9a9;
+}
+
+/*footer*/
+footer {
+    position: relative;
+    background-color: #F3F3F1;
+    z-index: 2;
 }
